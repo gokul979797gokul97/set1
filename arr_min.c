@@ -3,19 +3,19 @@ int main()
 {
   int n;
   scanf("%d",&n);
-  int a[n],i,largest;
+  int array[n],i,min;
   for(i=0;i<n;i++)
   {
-  	scanf("%d",&a[i]);
+  	scanf("%d",&array[i]);
   }
-  largest=a[0];
+  min=array[0];
   for(i=0;i<n;i++)
   {
-    if(largest < a[i])
+    if(largest > array[i])
     {
-      largest=a[i];
+      min=array[i];
     }
   }
-  printf("%d",largest);
+  printf("%d",min);
   return 0;
 }
