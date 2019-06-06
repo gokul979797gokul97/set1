@@ -3,7 +3,7 @@ int main()
 {
   int value;
   char ch;
-  scanf("%c",&ch);
+  scanf("%b",&ch);
   value=ch;
   printf("%d",value);
   return 0;
