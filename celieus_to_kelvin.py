@@ -1,3 +1,3 @@
-c=int(input())
-k=c+273
+b=int(input())
+k=b+273
 print(k)
